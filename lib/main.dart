@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food/widget/home.dart';
+import 'package:food/widget/start.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Food',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: Start(),
     );
   }
 }

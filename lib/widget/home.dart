@@ -73,8 +73,9 @@ class _HomeState extends State<Home> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Liste_plat()));
-                      })),
+                                builder: (context) => ListePlat()));
+                      })
+              ),
               new Text(
                 "Forgot Password",
                 style: new TextStyle(

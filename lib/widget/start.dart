@@ -15,7 +15,7 @@ class _StartState extends State<Start> {
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 5),
+        Duration(seconds: 3),
         () => Navigator.push(
             context, MaterialPageRoute(builder: (context) => Home())));
   }
@@ -32,7 +32,7 @@ class _StartState extends State<Start> {
           Row(
             children:  [
               Container(
-                margin: EdgeInsets.only(left: 70.0),
+                margin: EdgeInsets.only(left: 60.0),
                 child: Center(
                   child: Text(
                     "Food",

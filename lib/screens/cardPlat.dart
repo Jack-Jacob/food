@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:food/config/images.dart';
 import 'package:food/widget/presentation.dart';
 
-Widget cardPlat({name, path}) {
+Widget cardPlat({name, path, context}) {
+
   return GestureDetector(
     child: Card(
       margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
@@ -24,9 +25,8 @@ Widget cardPlat({name, path}) {
       ),
     ),
     onTap: () {
-      var nom = name;
-      Navigator.push(name,
-          MaterialPageRoute(builder: (context) => Presentation(nom: "$nom")));
+      Navigator.push(context,
+          MaterialPageRoute(builder: (context) => Presentation(nom: "$name",)));
     },
   );
 }

@@ -79,7 +79,7 @@ class _ListePlatState extends State<ListePlat> {
                       itemCount: list.length,
                       itemBuilder: (context, index) {
                         return cardPlat(
-                            name: list[index].name, path: list[index].path);
+                            name: list[index].name, path: list[index].path, context: context);
                       }),
                 ),
               )

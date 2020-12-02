@@ -67,9 +67,6 @@ flutter:
    - family: LeelawUI
      fonts:
       - asset: assets/fonts/LeelawUI.ttf
-   - family: Aston_Script_Pro
-     fonts:
-      - asset: assets/fonts/Aston_Script_Pro.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
