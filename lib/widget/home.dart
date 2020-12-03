@@ -17,7 +17,7 @@ class _HomeState extends State<Home> {
                 image: AssetImage(ImageSys.background), fit: BoxFit.cover)),
         child: Center(
           child: new Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               new Text(
                 "Food",
